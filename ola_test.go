@@ -3,10 +3,10 @@ package main
 import "testing"
 
 func TestOla(t *testing.T) {
-	resultado := Ola("Chris")
-	esperado := "Ola, Chris"
+	resultado := Ola("Mari")
+	esperado := "Olá, Mari"
 
 	if resultado != esperado {
-		t.Errorf("resultado '%s', espeado '%s', resultado, esperado")
+		t.Errorf("resultado '%s', esperado '%s'", resultado, esperado)
 	}
 }
