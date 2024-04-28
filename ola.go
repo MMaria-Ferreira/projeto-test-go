@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func Ola(nome string) string {
-	return "Ola, " + nome
-
+	return "Olá, " + nome
 }
+
 func main() {
 	fmt.Println(Ola("mundo"))
 }
